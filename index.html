@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.4.6/jscolor.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.4.6/jscolor.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Robot">
+</head>
+<body>
+    <h1>Etch-a-Sketch</h1>
+
+    <div class="optionsContainer">    <div class="dropdownContainer">
+    <div class="dropdown">
+        <button class="dropbtn">Select grid size</button>
+        <div class="dropdown-content">
+          <a id="z_25">25 x 25</a>
+          <a id="z_50">50 x 50</a>
+          <a id="z_75">75 x 75</a>
+          <a id="z_100">100 x 100</a>
+        </div>
+      </div>
+    </div>
+
+      <div class="colorContainer">
+      <p>Pick your color:</p>
+      <input type="text" id="colorPicker" class="jscolor" value="#000000">
+      </div>
+    </div>
+
+      <h2>Press and drag your mouse to draw on the grid</h2>
+    <div id="divContainer"></div>
+</body>
+
+<script src="script.js"></script>
+</html>
